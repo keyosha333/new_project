@@ -1,18 +1,14 @@
-let superHeroName = 'Batman';
-let name = 'Bruce Wayne';
-let fly = false;
-let hasBatmobile = 'true';
-let life = 33;
-let freeTime = null;
+var superHeroName = 'Batman';
+var name = 'Bruce Wayne';
+var fly = 'false';
+var hasBatmobile = 'true';
+var life = 'between 0 and 100';
+var freeTime = 'null';
 
-console.log ('Batman', superHeroName);
-console.log ('Bruce Wayne', name);
-console.log (false, fly);
-console.log (33,life);
-console.log (null, freeTime);
+console.log (superHeroName, Batman);
+console.log (name, 'Bruce Wayne');
+console.log (fly, 'false');
+console.log (hasBatmobile, 'true');
+console.log (life, 'between 0 and 100');
+console.log (freeTime, 'null');
 
-console.log (typeof superHeroName);
-console.log (typeof name);
-console.log (typeof fly);
-console.log (typeof life);
-console.log (typeof freeTime);
